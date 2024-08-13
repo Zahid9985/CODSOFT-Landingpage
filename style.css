@@ -1,0 +1,70 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url('bg.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+    nav {
+        width: 100%;
+        height: 100px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        
+
+    }
+
+    .logo {
+        font-size: x-large; 
+        letter-spacing: 1px;
+        font-weight: 700;
+        /* font-family: "Grey Qo", cursive; */
+        /* font-weight: 700; */
+        /* font-style: normal; */
+        padding-top: 20px;
+        padding-left: 156px;
+        padding-right: 109px;
+    }
+    .menu{
+        
+        padding-top: 25px;
+        
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        
+        padding-right: 56px;
+        padding-left: 16px;
+        
+    }
+    .main{
+        display: flex;
+        justify-content: space-around;
+    }
+    .left{
+        /*margin-top: 177px;
+        margin-right: 637px;
+        margin-bottom: 50px;
+        margin-left: 132px;*/
+        padding-top:177px;
+        padding-right: 204px;
+        padding-bottom: 100px;
+        padding-left: 257px;
+        font-weight: 300;
+        font-size: 1em;
+    }
+    .right{
+       /* margin-top: 177px;
+        margin-right: 637px;
+        margin-bottom: 50px;
+        margin-left: 132px;*/
+        padding-top:177px;
+        padding-right: 289px;
+        padding-bottom: 100px;
+        padding-left: 100px;
+    }
